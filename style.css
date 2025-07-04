@@ -1,5 +1,5 @@
 body {
-    background-color: #f2f2f2;
+    background-color: #f0f0f0;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -9,29 +9,20 @@ body {
 }
 
 .card {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
     width: 250px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
 .card h2 {
-    margin: 10px 0 5px;
+    margin: 10px 0;
+    color: #333;
 }
 
 .card p {
-    color: #555;
-    margin-bottom: 15px;
-}
-
-.card a {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    background-color: #007BFF;
-    padding: 8px 12px;
-    border-radius: 5px;
+    color: #777;
+    font-size: 14px;
 }
